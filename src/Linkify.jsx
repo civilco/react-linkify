@@ -1,9 +1,9 @@
 import React from 'react';
 import LinkifyIt from 'linkify-it';
-import tlds from 'tlds';
+// import tlds from 'tlds';
 
 const linkify = new LinkifyIt();
-linkify.tlds(tlds);
+// linkify.tlds(tlds);
 
 class Linkify extends React.Component {
   static MATCH = 'LINKIFY_MATCH'
